@@ -10,9 +10,9 @@ public class 判断是否为质数 {
                 System.out.println(a+"该数不是质数");
                 break;
             }
-            else {
-                System.out.println(a+"该数是质数");
-            }
+            if(a==i){
+            System.out.println(a+"该数是质数");
+        }
         }
     }
 }
